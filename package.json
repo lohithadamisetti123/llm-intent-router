@@ -1,0 +1,31 @@
+{
+  "name": "llm-intent-router",
+  "version": "1.0.0",
+  "description": "LLM-powered prompt router for intent classification (Partnr task)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test:manual": "node tests/manual_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lohithadamisetti123/llm-intent-router.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lohithadamisetti123/llm-intent-router/issues"
+  },
+  "homepage": "https://github.com/lohithadamisetti123/llm-intent-router#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "openai": "^6.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
