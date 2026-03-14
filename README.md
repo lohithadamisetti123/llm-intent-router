@@ -49,11 +49,11 @@ Each intent maps to a different **system prompt persona**.
 
 The Groq API is used through the OpenAI compatible endpoint:
 
-```
+
 
 [https://api.groq.com/openai/v1](https://api.groq.com/openai/v1)
 
-```
+
 
 This allows fast inference while keeping the same API interface.
 
@@ -103,7 +103,7 @@ JSONL Logging
 ## Demo Video
 
 **Demo Video:**  
-https://youtu.be/your-demo-video-link
+[WATCH NOW👉](https://youtu.be/4_k8b_bmYnw?si=2oSuUnfSltoB1JPX)
 # Project Structure
 
 ```
